@@ -1,0 +1,25 @@
+{
+    "name": "programster/harvest-sdk",
+    "type": "sdk",
+    "description": "A PHP package for interfacing with the Harvest API.",
+    "keywords": ["Harvest", "SDK"],
+    "homepage": "https://github.com/programster/package-harvest-sdk",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stuart Page (Programster)",
+            "email": "sdpagent@gmail.com",
+            "homepage": "https://blog.programster.org/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0",
+        "psr/http-message": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Programster\\Harvest\\": "src/"
+        }
+    }
+}
